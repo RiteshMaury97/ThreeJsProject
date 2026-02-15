@@ -1,7 +1,6 @@
 import React from "react";
 import { navlinks } from "../constants";
-
-const NavBar = () => {
+const Navbar = () => {
   return (
     <header>
       <nav>
@@ -26,5 +25,4 @@ const NavBar = () => {
     </header>
   );
 };
-
-export default NavBar;
+export default Navbar;
